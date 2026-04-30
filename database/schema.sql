@@ -100,21 +100,21 @@ INSERT INTO users (name, email, password_hash, role_id, department_id) VALUES
   (
     'Alice Admin',
     'admin@example.com',
-    '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+    '$2b$10$M5BTkPWmWobd.i1gCSt3mezNPTx.x./OZwl1fP0xPmiRyzXTGX6Se',
     1,  -- Admin
     3   -- Engineering
   ),
   (
     'Mark Manager',
     'manager@example.com',
-    '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+    '$2b$10$M5BTkPWmWobd.i1gCSt3mezNPTx.x./OZwl1fP0xPmiRyzXTGX6Se',
     2,  -- Manager
     1   -- HR
   ),
   (
     'Eve Employee',
     'employee@example.com',
-    '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
+    '$2b$10$M5BTkPWmWobd.i1gCSt3mezNPTx.x./OZwl1fP0xPmiRyzXTGX6Se',
     3,  -- Employee
     4   -- Sales
   );
